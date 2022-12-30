@@ -6,3 +6,18 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+base64-url = "1.4.13"
+clap = {version = "3.2.8", features = ["derive"]}
+colored = "2.0.0"
+path-slash = "0.2.0"
+rand = "0.8.5"
+regex = "1.6.0"
+rsa = "0.6.1"
+serde = {version = "1.0.138", features = ["derive"]}
+serde_json = "1.0.82"
+sha2 = "0.10.2"
+update-informer = {version = "0.5.0", default-features = false, features = ["github"]}
+rand_chacha = "0.3.1"
+hmac-drbg = "0.3.0"
+typenum = "1.16.0"
+tiny-bip39 = "1.0.0"
